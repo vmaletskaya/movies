@@ -20,7 +20,7 @@ const Reviews = () => {
 
   return (
     <section className={css.section}>
-      <h3 className={css.section__title}>Reviews:</h3>
+      <h3 className={css.section__title}>Reviews</h3>
       {reviews.length > 0 ? (
         <ReviewsList reviews={reviews} />
       ) : (
