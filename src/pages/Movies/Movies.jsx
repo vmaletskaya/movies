@@ -1,6 +1,6 @@
 import { useSearchParams, useLocation } from 'react-router-dom';
 import { useState, useEffect } from 'react';
-import { fetchByQuery } from 'Api-service/ApiService';
+import { fetchByQuery } from 'components/Api-service/ApiService';
 import { CgSearch } from 'react-icons/cg';
 import { IconContext } from 'react-icons';
 import Gallery from 'components/Gallery/Gallery';

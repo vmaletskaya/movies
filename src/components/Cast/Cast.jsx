@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
-import { fetchCredits } from 'Api-service/ApiService';
+import { fetchCredits } from 'components/Api-service/ApiService';
 import { CastList } from '../CastList/CastList';
 import css from './Cast.module.css';
 

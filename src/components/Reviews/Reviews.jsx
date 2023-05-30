@@ -1,6 +1,6 @@
 import { useParams } from 'react-router-dom';
 import { useEffect, useState } from 'react';
-import { fetchReviews } from 'Api-service/ApiService';
+import { fetchReviews } from 'components/Api-service/ApiService';
 import { ReviewsList } from '../ReviewsList/ReviewsList';
 import css from './Reviews.module.css';
 

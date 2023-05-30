@@ -7,7 +7,7 @@ import {
   useParams,
 } from 'react-router-dom';
 import { TiArrowBackOutline } from 'react-icons/ti';
-import { fetchById } from 'Api-service/ApiService';
+import { fetchById } from 'components/Api-service/ApiService';
 import Loader from 'components/Loader/Loader';
 import image from '../../images/image.jpg';
 import css from './MovieDetails.module.css';

@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { fetchTrendingMovies } from 'Api-service/ApiService';
+import { fetchTrendingMovies } from 'components/Api-service/ApiService';
 import { useLocation } from 'react-router-dom';
 
 import Gallery from 'components/Gallery/Gallery';
