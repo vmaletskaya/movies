@@ -42,6 +42,7 @@ const GalleryItem = ({ rating, release, state, path, poster, title }) => {
 
 export default GalleryItem;
 
+
 GalleryItem.propTypes = {
   rating: PropTypes.string.isRequired,
   release: PropTypes.string.isRequired,

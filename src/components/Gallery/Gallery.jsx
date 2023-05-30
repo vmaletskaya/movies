@@ -10,7 +10,7 @@ const Gallery = ({ movies, state, path }) => {
         ({ vote_average, release_date, id, poster_path, title, overview }) => {
           const rating = getRating(`${vote_average}`);
           const release = `${release_date}`;
-          const pathToMovie = `${path}${id}`
+          const pathToMovie = `${path}${id}`;
           return (
             <GalleryItem
               key={id}
@@ -28,6 +28,7 @@ const Gallery = ({ movies, state, path }) => {
     </ul>
   );
 };
+
 export default Gallery;
 
 Gallery.propTypes = {

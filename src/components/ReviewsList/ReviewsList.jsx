@@ -18,6 +18,8 @@ export const ReviewsList = ({ reviews }) => {
   );
 };
 
+
+
 ReviewsList.propTypes = {
   reviews: PropTypes.array.isRequired,
 };

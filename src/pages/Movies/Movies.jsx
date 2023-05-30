@@ -35,7 +35,6 @@ const Movies = () => {
 
   return (
     <div className={css.section}>
-      
       <form onSubmit={handleSubmit} className={css.form}>
         <input
           type="text"
@@ -43,14 +42,20 @@ const Movies = () => {
           placeholder="Search movie"
           className={css.searchInput}
         />
-         <IconContext.Provider value={{ color: 'black', size: '2em', style: { verticalAlign: 'middle' } }}>
+        <IconContext.Provider
+          value={{
+            color: 'black',
+            size: '2em',
+            style: { verticalAlign: 'middle' },
+          }}
+        >
           <button type="submit" className={css.button}>
-           <CgSearch />
+            <CgSearch />
           </button>
         </IconContext.Provider>
       </form>
       {searchedMovies.length > 0 && (
-        <Gallery movies={searchedMovies} state={{ from: location }} path={''}/>
+        <Gallery movies={searchedMovies} state={{ from: location }} path={''} />
       )}
     </div>
   );

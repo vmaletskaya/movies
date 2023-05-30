@@ -11,25 +11,22 @@ export async function fetchTrendingMovies() {
 }
 
 export async function fetchById(id) {
-  return await fetch(`${BASE_URL}/movie/${id}?api_key=${API_KEY}`).then(
-    res => {
-      if (!res.ok) Promise.reject(new Error('Opps...something going wrong'));
-      return res.json();
-    }
-  );
+  return await fetch(`${BASE_URL}/movie/${id}?api_key=${API_KEY}`).then(res => {
+    if (!res.ok) Promise.reject(new Error('Opps...something going wrong'));
+    return res.json();
+  });
 }
 
-export async function fetchByQuery (query) {
-  return await fetch(`${BASE_URL}/search/movie?api_key=${API_KEY}&query=${query}&page=1`).then(
-    res => {
-      if (!res.ok) Promise.reject(new Error('Opps...something going wrong'));
-      return res.json();
-    }
-  );
+export async function fetchByQuery(query) {
+  return await fetch(
+    `${BASE_URL}/search/movie?api_key=${API_KEY}&query=${query}&page=1`
+  ).then(res => {
+    if (!res.ok) Promise.reject(new Error('Opps...something going wrong'));
+    return res.json();
+  });
 }
 
-
-export async function fetchCredits (id) {
+export async function fetchCredits(id) {
   return await fetch(`${BASE_URL}/movie/${id}/credits?api_key=${API_KEY}`).then(
     res => {
       if (!res.ok) Promise.reject(new Error('Opps...something going wrong'));
@@ -38,7 +35,7 @@ export async function fetchCredits (id) {
   );
 }
 
-export async function fetchReviews (id) {
+export async function fetchReviews(id) {
   return await fetch(`${BASE_URL}/movie/${id}/reviews?api_key=${API_KEY}`).then(
     res => {
       if (!res.ok) Promise.reject(new Error('Opps...something going wrong'));

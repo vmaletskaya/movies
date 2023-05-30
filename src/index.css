@@ -40,8 +40,10 @@ a {
 }
 
 a.active {
-  color: #3A1078;
+  color: #3a1078;
 }
+
+
 
 img {
   display: block;

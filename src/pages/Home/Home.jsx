@@ -24,9 +24,8 @@ const Home = () => {
   }, []);
   return (
     <section className={css.section}>
-      
       {movies.length > 0 ? (
-        <Gallery movies={movies} state={{ from: location }} path={'movies/'}/>
+        <Gallery movies={movies} state={{ from: location }} path={'movies/'} />
       ) : (
         <Loader />
       )}

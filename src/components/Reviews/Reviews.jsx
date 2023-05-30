@@ -18,6 +18,7 @@ const Reviews = () => {
     fetchReview();
   }, [movieId]);
 
+  
   return (
     <section className={css.section}>
       <h3 className={css.section__title}>Reviews</h3>
@@ -29,4 +30,5 @@ const Reviews = () => {
     </section>
   );
 };
+
 export default Reviews;
