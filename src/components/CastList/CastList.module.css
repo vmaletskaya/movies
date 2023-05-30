@@ -1,0 +1,30 @@
+.cast__gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 8px;
+}
+
+.cast__image {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 8px;
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.cast__item {
+    font-size: 14px;
+    line-height: 1.05;
+    text-align: center;
+    background-color: #443c684b;
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+        rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+
+.cast__info {
+    margin-bottom: 10px;
+    font-weight: 600;
+}

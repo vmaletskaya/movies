@@ -1,0 +1,101 @@
+.section {
+    margin-top: 70px;
+    padding: 24px;
+}
+
+.content {
+    display: flex;
+    padding-bottom: 8px;
+    margin-bottom: 32px;
+    box-shadow: #7b9198 0px 20px 20px -10px;
+}
+
+.button {
+    padding: 8px;
+    font-size: 40px;
+    text-orientation: upright;
+    transition: background-color 300ms ease, color 300ms ease,
+   
+}
+
+.button:hover,
+.button:focus {
+    color: #3D2C8D;
+}
+
+.image {
+    width: 400px;
+    height: 600px;
+    object-fit: cover;
+    object-position: center;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+        rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 12px;
+    margin-left: 24px;
+    color: inherit;
+}
+
+.info__title {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 35px;
+}
+
+.info__tagline {
+    font-weight: 500;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.info__text {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.info__accent {
+    font-weight: 500;
+}
+
+.overview {
+    list-style: none;
+    padding-right: 24px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.overview>p {
+    padding-top: 8px;
+    font-size: 18px;
+    text-indent: 5%;
+}
+
+.additional__links {
+    display: flex;
+    margin-top: auto;
+    gap: 12px;
+    padding: 8px;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.link {
+    position: relative;
+}
+
+
+
+.link:hover,
+.link:focus {
+    color: #3D2C8D;
+}
+
+.link:active.link::after {
+    width: 100%;
+    opacity: 1;
+}

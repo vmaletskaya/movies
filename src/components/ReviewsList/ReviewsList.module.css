@@ -1,0 +1,13 @@
+.review {
+    margin-bottom: 12px;
+    padding: 4px 8px;
+    background-color: #DDE6ED;
+    border: 2px solid #222;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.review__text {
+    font-size: 18px;
+    margin-bottom: 8px;
+}

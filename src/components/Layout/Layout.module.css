@@ -1,0 +1,21 @@
+.header {
+    position: fixed;
+    width: 100%;
+    padding: 10px;
+    background-color: #443c684b;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 24px;
+    gap: 48px;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.navlink {
+    color: #222;
+}
+
