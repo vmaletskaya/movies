@@ -1,6 +1,8 @@
 .section {
-  margin-top: 70px;
+  margin-top: 52px;
   padding: 24px;
+  display: flex;
+    justify-content: center;
 }
 
 .section__title {
